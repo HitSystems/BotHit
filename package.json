@@ -1,0 +1,19 @@
+{
+  "name": "BotHit",
+  "version": "1.0.0",
+  "main": "Bot.js",
+  "dependencies": {
+    "emojize": "^0.2.0",
+    "mssql": "^6.2.0",
+    "node-red-contrib-telegrambot-home": "^0.5.2",
+    "node-telegram-bot-api": "^0.40.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

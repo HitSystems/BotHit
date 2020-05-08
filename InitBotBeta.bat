@@ -1,0 +1,2 @@
+node BotBeta.js  
+pause
