@@ -1,2 +1,2 @@
-node BotBeta.js  
+node-dev BotBeta.js  
 pause

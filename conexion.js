@@ -11,13 +11,12 @@ async function recHit(database, consultaSQL) {
                 "enableArithAbort": true
             }
     };
-	
 	let pool = await new sql.connect(config);
-    let devolver = await pool.request().query(consultaSQL);
+	let devolver = await pool.request().query(consultaSQL);
 	sql.close();
-	
     return devolver;
 }
+
 
 async function recHitOld(database, consultaSQL) {
     var config =
